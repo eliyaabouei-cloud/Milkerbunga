@@ -71,3 +71,27 @@ Features
         Lock Screen Footnote
         No Lock On Respring
         Disable Low Power Alert
+
+Installing
+
+You Can Install Through AltStore, Sideloadly, Xcode, Or TrollStore (If Your Device Supports It)
+
+Creating Custom Lock Animations
+
+Lock Animations Are Very Simple To make For The Frames, Each Image Must Be Named "trollformation" With A Number A Afterwards (ie. trollformation1.png, trollformation2.png, trollformation3.png...). You Can Use Up To 120 Frames, Though I Am Not Sure Of The Exact Size Limit, Which Is Probably Much Less If Your Animation Is Not Exactly 40 Frames Or You Want To Customize The Display Length Of Each Frame, You Need To Define The Animations This Is Very Simple To Do:
+
+    Create A JSON File Named animations.json
+    Define The Values Format: "Frame Number": Time Interval Example:
+
+{
+    "1": 0,
+    "2": 0.025,
+    "10": 0.01,
+    "15": 0.025
+}
+
+Explanation: You Do Not Need To State The Length Of Each Frame The Only Time That Absolutely Needs To Be Defined Is The First Frame If you Did Not Set A Time For The Frame, Milkerbunga Will Use The Time From The Last Frame The Time Interval Is How Long The Frame Stays On The Screen For Important: The Frame Number Must Be A String (Meaning In Quotes) Because Of How JSON Decoding Works
+
+Building
+
+Just Build Like A Normal Xcode Project Sign Using Your Own Team And Bundle Identifier You Can Also Build The IPA File With ipabuild.sh
