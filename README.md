@@ -94,4 +94,4 @@ Explanation: You Do Not Need To State The Length Of Each Frame The Only Time Tha
 
 Building
 
-Just Build Like A Normal Xcode Project Sign Using Your Own Team And Bundle Identifier You Can Also Build The IPA File With ipabuild.sh
+Just Build Like A Normal Xcode Project Sign Using Your Own Team And Bundle Identifier You Can Also Build The IPA File With ipabuild.sh 
