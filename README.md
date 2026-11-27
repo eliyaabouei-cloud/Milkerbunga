@@ -74,7 +74,7 @@ Features
 
 Installing
 
-You Can Install Through AltStore, Sideloadly, Xcode, Or TrollStore (If Your Device Supports It)
+You Can Install Through AltStore, Sideloadly Or TrollStore (If Your Device Supports It)
 
 Creating Custom Lock Animations
 
@@ -91,7 +91,3 @@ Lock Animations Are Very Simple To make For The Frames, Each Image Must Be Named
 }
 
 Explanation: You Do Not Need To State The Length Of Each Frame The Only Time That Absolutely Needs To Be Defined Is The First Frame If you Did Not Set A Time For The Frame, Milkerbunga Will Use The Time From The Last Frame The Time Interval Is How Long The Frame Stays On The Screen For Important: The Frame Number Must Be A String (Meaning In Quotes) Because Of How JSON Decoding Works
-
-Building
-
-Just Build Like A Normal Xcode Project Sign Using Your Own Team And Bundle Identifier You Can Also Build The IPA File With ipabuild.sh 
